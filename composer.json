@@ -10,9 +10,6 @@
     ],
     "require": {},
     "autoload": {
-        "psr-4": {
-            "Decouple\\UI\\Elements\\": "Elements/",
-            "Decouple\\UI\\": ""
-        }
+        "classmap": [""],
     }
 }
