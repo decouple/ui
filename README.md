@@ -1,4 +1,4 @@
-ui
+decouple/ui
 ==
 
-Hack UI toolkit for Decouple framework
+Hack UI toolkit for Decouple Framework.
