@@ -49,7 +49,7 @@ abstract class :decouple:ui:base extends :x:element {
 
     // Always forward data and aria attributes
     $html5Attributes =
-      Map::fromArray(array('data-' => true, 'aria-' => true));
+      Map {'data-' => true, 'aria-' => true};
 
     // Transfer all valid attributes to $root
     foreach ($attributes as $attribute => $value) {
